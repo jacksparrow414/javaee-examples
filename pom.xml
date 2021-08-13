@@ -63,6 +63,13 @@
             <version>3.8.1</version>
             <scope>test</scope>
         </dependency>
+<!--可以使用下面一个依赖代替上述所有依赖-->
+<!--        <dependency>-->
+<!--            <groupId>jakarta.platform</groupId>-->
+<!--            <artifactId>jakarta.jakartaee-api</artifactId>-->
+<!--            <version>${jakartaee.api.version}</version>-->
+<!--            <scope>provided</scope>-->
+<!--        </dependency>-->
     </dependencies>
     <build>
         <!--    如果是war包，则最终打出的war包的名字就是这个名字，所以默认tomcat的文件夹下就是这个名字，所以IDEA的Deployment的Application context的前缀就是这个名字-->
